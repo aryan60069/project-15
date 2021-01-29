@@ -33,7 +33,7 @@ function setup() {
   //creating sword
   knife = createSprite(40, 200, 20, 20);
   knife.addImage("ki", knifeImg);
-  knife.scale = 0.7
+  knife.scale = 1;
 
   //creating the game over sprite
   end = createSprite(500, 200, 10, 10);
