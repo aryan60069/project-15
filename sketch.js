@@ -165,11 +165,11 @@ function spawnMonsters() {
 function spawnComboFruit(){
   if(frameCount%700 === 0){
   comboFruit = createSprite(0,200,10,10);
-    comboFruit.y = Math.round(random(50,340));
+  comboFruit.y = Math.round(random(50,340));
   comboFruit.addImage("cf",comboFruitImg);
   comboFruit.scale = 0.2;
   comboFruit.velocityX = (22+score/10);
-    comboFruit.setLifetime = 500;
+  comboFruit.setLifetime = 500;
   comboGroup.add(comboFruit);
 }
 }
