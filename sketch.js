@@ -28,7 +28,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1200,540);
+  createCanvas(1100,540);
 
   //creating sword
   knife = createSprite(40, 200, 20, 20);
@@ -103,8 +103,8 @@ function draw() {
   drawSprites();
 
   //Display score
-  textSize(25);
-  text("Score : " + score, 750, 50);
+  textSize(30);
+  text("Score : " + score, 750, 60);
 }
 
 function spawnFruits() {
