@@ -135,7 +135,7 @@ function spawnFruits() {
     fruits.velocityX = (15 + score / 10);
 
     //to give a lifetime
-    fruits.setLifetime = 500;
+    fruits.setLifetime = 1000;
 
     fruitsGroup.add(fruits);
   }
@@ -170,7 +170,7 @@ function spawnComboFruit(){
   comboFruit.addImage("cf",comboFruitImg);
   comboFruit.scale = 0.2;
   comboFruit.velocityX = (22+score/10);
-  comboFruit.setLifetime = 500;
+  comboFruit.setLifetime = 1000;
   comboGroup.add(comboFruit);
 }
 }
