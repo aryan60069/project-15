@@ -28,7 +28,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1500, 800);
+  createCanvas(2000,1000);
 
   //creating sword
   knife = createSprite(40, 200, 20, 20);
@@ -66,13 +66,14 @@ function draw() {
     //to increase the scoring system
     if (fruitsGroup.isTouching(knife)) {
       fruitsGroup.destroyEach();
-      score = score + 2;
+      score = score + 3;
       knifeSwooshSound.play();
     }
     
     if(comboGroup.isTouching(knife)){
       score = score+10;
       comboGroup.destroyEach();
+      knifeSwooshSound.play();
     }
 
     //defining the user defined function 
