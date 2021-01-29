@@ -28,7 +28,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(2000,1000);
+  createCanvas(1600,600);
 
   //creating sword
   knife = createSprite(40, 200, 20, 20);
