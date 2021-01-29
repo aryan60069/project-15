@@ -28,7 +28,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1000, 400);
+  createCanvas(1500, 800);
 
   //creating sword
   knife = createSprite(40, 200, 20, 20);
@@ -103,7 +103,7 @@ function draw() {
 
   //Display score
   textSize(25);
-  text("Score : " + score, 500, 50);
+  text("Score : " + score, 750, 50);
 }
 
 function spawnFruits() {
@@ -128,7 +128,7 @@ function spawnFruits() {
         break;
     }
     //to spawn the fruits at different positions
-    fruits.y = Math.round(random(50, 340));
+    fruits.y = Math.round(random(50, 740));
 
     //to give speed to fruits
     fruits.velocityX = (15 + score / 10);
