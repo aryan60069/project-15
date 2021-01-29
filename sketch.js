@@ -28,7 +28,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1200,600);
+  createCanvas(1500,700);
 
   //creating sword
   knife = createSprite(40, 200, 20, 20);
@@ -38,7 +38,7 @@ function setup() {
   //creating the game over sprite
   end = createSprite(500, 200, 10, 10);
   end.addImage("e", endImg);
-  end.scale = 1.5;
+  end.scale = 2.5;
 
   //set collider for knife
   knife.setCollider("rectangle", 0, 0, 65, 100);
